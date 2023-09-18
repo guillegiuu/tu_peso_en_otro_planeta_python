@@ -19,6 +19,36 @@ if planeta == 3:
 
 #Imprimo por pantalla el peso en Jupiter de Codey.
 print(peso * 2.34)
+
+# =========================================================
+
+#Informacion de los Planetas
+print("Tengo información para los siguientes planetas:\n")
+
+print("   1. Venus    2. Marte    3. Jupiter")
+print("   4. Saturno  5. Urano   6. Neptuno")
+
+#Peso
+peso = 185
+
+#Planeta
+planeta = 3
+
+#Sentencias if/elif
+if planeta == 1:
+  peso = peso * 0.91
+elif planeta == 2:
+  peso = peso * 0.38
+elif planeta == 3:
+  peso = peso * 2.34
+elif planeta == 4:
+  peso = peso * 1.06
+elif planeta == 5:
+  peso = peso * 0.92
+elif planeta == 6:
+  peso = peso * 1.19
+
+print("Tu peso en otro planeta es:", peso)
 """
 ========================================================
 
