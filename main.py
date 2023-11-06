@@ -1,40 +1,40 @@
-#Python Control Flow CodeCademy
-#Informacion de los Planetas
+# Python Control Flow CodeCademy
+# Informacion de los Planetas
 print("Tengo información para los siguientes planetas:\n")
 
 print("   1. Venus    2. Marte    3. Jupiter")
 print("   4. Saturno  5. Urano   6. Neptuno")
 
-#Peso
+# Peso
 peso = 185
 
-#Planeta
+# Planeta
 planeta = 3
 
-#Utilizo if para comprobar y ademas comprobar el peso de codey en Jupiter:
+# Utilizo if para comprobar y ademas comprobar el peso de codey en Jupiter:
 
-#If
+# If
 if planeta == 3:
   print("Jupiter")
 
-#Imprimo por pantalla el peso en Jupiter de Codey.
+# Imprimo por pantalla el peso en Jupiter de Codey.
 print(peso * 2.34)
 
 # =========================================================
 
-#Informacion de los Planetas
+# Informacion de los Planetas
 print("Tengo información para los siguientes planetas:\n")
 
 print("   1. Venus    2. Marte    3. Jupiter")
 print("   4. Saturno  5. Urano   6. Neptuno")
 
-#Peso
+# Peso
 peso = 185
 
-#Planeta
+# Planeta
 planeta = 3
 
-#Sentencias if/elif
+# Sentencias if/elif
 if planeta == 1:
   peso = peso * 0.91
 elif planeta == 2:
@@ -53,7 +53,9 @@ print("Tu peso en otro planeta es:", peso)
 ========================================================
 
 *
-Si quieres modificar el planeta o el peso, solamente modifica, los valores de las variables (peso y planeta), ademas de modificar el valor str del print del if.
+Si quieres modificar el planeta o el peso, solamente modifica \
+, los valores de las variables (peso y planeta), ademas \
+de modificar el valor str del print del if.
 
 Te dejo una tabla con los valores respectivos de cada planeta:
 
